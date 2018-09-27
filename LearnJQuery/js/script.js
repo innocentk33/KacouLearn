@@ -17,6 +17,18 @@ $(document).ready(function () {
     $("#para2").mouseenter(function () {
         $("#para1").show();
     });
+    //********Togle effet tres important******** si l'element est visible le rend invisible et vice versa
+    $("#para3").click(function(){
+        $(".para0").toggle();
+    })
+    /*
+    d'autre fonction tels que 
+    fadeOut
+    fadeToggle
+    fadeTo("vitesse",0.5);
+    */
+
+
     //evenement particulier hover peu avoir 2 fonction
     /*$("#para3").hover(function () {
             $("#para1").hide();
