@@ -1,0 +1,54 @@
+/*
+Le cahier du css
+*/
+/*Ajouter une police*/
+.police{
+    font-family: Arial, Helvetica, sans-serif, serif, cursive;
+    font-weight: normal;
+    text-align:center;
+
+}
+/*Imbrication*/
+div div p{
+
+}
+/*selecteur all*/
+*{
+    box-shadow: rgba(0, 0, 0, 0.1)
+
+}
+/*pseudo class*/
+.class:pseudo-class{
+
+}
+a:link{
+
+}
+a:visited{
+
+}
+a:hover{
+    color: aquamarine;
+}
+p:first-child{
+    /*ce que tu veux*/
+}
+/*Le box model representation des element en html css*/
+/*sens des mrgins*/
+.rotation{
+  /*  margin: haut droite bas gauche;*/
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/**/
+.postiton{
+    /*
+    position: relative;
+    position: absolute; se postitionne par rapport au premier parent qui n'est pas de type static
+    position: fixed;*/
+    
+}
